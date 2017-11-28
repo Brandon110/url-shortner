@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Brandon Blackwell",
   "license": "ISC",
@@ -15,5 +15,9 @@
     "mongoose": "^4.13.5",
     "mongoose-findorcreate": "^2.0.0",
     "valid-url": "^1.0.9"
+  },
+  "engines": {
+    "node": "v4.7.3",
+    "npm": "2.15.11"
   }
 }
